@@ -1,0 +1,41 @@
+nom;code;operateur;type;technologie;statut;hauteur;puissance;date_installation;adresse;ville;region;latitude;longitude
+Site Yaoundé Quartier admin. 001;ANT-CMT-0001;CAMTEL;PICO_CELL;2G;PROJET;18.9;45.3;2016-07-25;Rue 02, Quartier Quartier admin.;Yaoundé;Centre;3.88844;11.49874
+Site Yaoundé Gare routière 002;ANT-MTN-0002;MTN Cameroun;MACRO_CELL;3G;ACTIF;41.5;68.6;2017-03-25;Rue 01, Quartier Zone industrielle;Yaoundé;Centre;3.867182;11.479088
+Site Yaoundé Aéroport 003;ANT-NXT-0003;Nexttel (Viettel);MACRO_CELL;4G;ACTIF;32.1;41.5;2023-07-25;Rue 23, Quartier Campus;Yaoundé;Centre;3.846708;11.496078
+Site Yaoundé Quartier admin. 004;ANT-CMT-0004;CAMTEL;ROOFTOP;4G;ACTIF;52.3;57.1;2019-03-31;Rue 56, Quartier Aéroport;Yaoundé;Centre;3.869961;11.56428
+Site Yaoundé Quartier admin. 005;ANT-MTN-0005;MTN Cameroun;MACRO_CELL;2G;ACTIF;32.1;47.2;2018-03-31;Rue 54, Quartier Aéroport;Yaoundé;Centre;3.825824;11.497211
+Site Yaoundé Quartier admin. 006;ANT-MTN-0006;MTN Cameroun;ROOFTOP;4G;ACTIF;39.0;34.7;2022-11-14;Rue 30, Quartier Gare routière;Yaoundé;Centre;3.853674;11.537016
+Site Yaoundé Centre-ville 007;ANT-ORC-0007;Orange Cameroun;MACRO_CELL;5G;ACTIF;51.2;44.1;2023-08-14;Rue 05, Quartier Marché central;Yaoundé;Centre;3.841465;11.505885
+Site Yaoundé Périphérie 008;ANT-ORC-0008;Orange Cameroun;MACRO_CELL;3G;ACTIF;21.3;64.7;2025-04-03;Rue 35, Quartier Campus;Yaoundé;Centre;3.880689;11.512307
+Site Yaoundé Périphérie 009;ANT-NXT-0009;Nexttel (Viettel);MACRO_CELL;5G;ACTIF;53.7;29.2;2016-07-20;Rue 11, Quartier Gare routière;Yaoundé;Centre;3.857646;11.496439
+Site Yaoundé Campus 010;ANT-CMT-0010;CAMTEL;ROOFTOP;4G;ACTIF;45.6;26.9;2020-12-07;Rue 57, Quartier Campus;Yaoundé;Centre;3.856046;11.566351
+Site Yaoundé Campus 011;ANT-ORC-0011;Orange Cameroun;ROOFTOP;2G;ACTIF;37.8;26.4;2015-01-14;Rue 41, Quartier Campus;Yaoundé;Centre;3.848115;11.490934
+Site Yaoundé Centre-ville 012;ANT-MTN-0012;MTN Cameroun;ROOFTOP;3G;ACTIF;37.0;26.7;2025-09-10;Rue 24, Quartier Campus;Yaoundé;Centre;3.855352;11.491239
+Site Yaoundé Quartier admin. 013;ANT-MTN-0013;MTN Cameroun;PICO_CELL;2G;ACTIF;51.7;78.7;2015-11-19;Rue 35, Quartier Zone industrielle;Yaoundé;Centre;3.843378;11.527762
+Site Yaoundé Gare routière 014;ANT-MTN-0014;MTN Cameroun;MACRO_CELL;4G;PROJET;49.0;61.4;2020-12-01;Rue 46, Quartier Campus;Yaoundé;Centre;3.906916;11.491561
+Site Yaoundé Marché central 015;ANT-NXT-0015;Nexttel (Viettel);MACRO_CELL;4G;ACTIF;30.2;55.3;2016-05-10;Rue 15, Quartier Marché central;Yaoundé;Centre;3.861129;11.523282
+Site Yaoundé Centre-ville 016;ANT-CMT-0016;CAMTEL;MACRO_CELL;2G;ACTIF;38.1;36.7;2015-10-04;Rue 32, Quartier Marché central;Yaoundé;Centre;3.885406;11.481999
+Site Yaoundé Gare routière 017;ANT-MTN-0017;MTN Cameroun;MACRO_CELL;5G;ACTIF;19.4;45.9;2020-04-21;Rue 28, Quartier Gare routière;Yaoundé;Centre;3.873559;11.49857
+Site Yaoundé Centre-ville 018;ANT-NXT-0018;Nexttel (Viettel);MICRO_CELL;2G;ACTIF;51.0;26.6;2016-02-08;Rue 13, Quartier Marché central;Yaoundé;Centre;3.882303;11.565275
+Site Yaoundé Quartier admin. 019;ANT-NXT-0019;Nexttel (Viettel);MICRO_CELL;3G;PROJET;19.4;59.1;2017-10-20;Rue 35, Quartier Centre-ville;Yaoundé;Centre;3.859669;11.501769
+Site Yaoundé Gare routière 020;ANT-CMT-0020;CAMTEL;MACRO_CELL;3G;ACTIF;32.1;79.1;2017-05-25;Rue 17, Quartier Périphérie;Yaoundé;Centre;3.836668;11.520408
+Site Douala Périphérie 021;ANT-ORC-0021;Orange Cameroun;MACRO_CELL;4G;ACTIF;28.4;78.1;2023-10-14;Rue 38, Quartier Centre-ville;Douala;Littoral;4.065993;9.725045
+Site Douala Zone industrielle 022;ANT-ORC-0022;Orange Cameroun;MACRO_CELL;2G;MAINTENANCE;18.6;31.1;2025-04-23;Rue 39, Quartier Quartier admin.;Douala;Littoral;4.007813;9.702211
+Site Douala Centre-ville 023;ANT-MTN-0023;MTN Cameroun;ROOFTOP;4G;ACTIF;33.9;55.0;2017-10-05;Rue 34, Quartier Aéroport;Douala;Littoral;4.01409;9.739426
+Site Douala Gare routière 024;ANT-ORC-0024;Orange Cameroun;MACRO_CELL;3G;ACTIF;35.6;75.7;2017-12-23;Rue 60, Quartier Quartier admin.;Douala;Littoral;4.063575;9.687577
+Site Douala Quartier admin. 025;ANT-CMT-0025;CAMTEL;ROOFTOP;4G;ACTIF;37.8;27.9;2016-02-14;Rue 23, Quartier Quartier admin.;Douala;Littoral;4.059204;9.709969
+Site Douala Campus 026;ANT-MTN-0026;MTN Cameroun;ROOFTOP;4G;MAINTENANCE;15.4;69.0;2021-02-03;Rue 20, Quartier Quartier admin.;Douala;Littoral;4.028949;9.698737
+Site Douala Zone industrielle 027;ANT-MTN-0027;MTN Cameroun;MACRO_CELL;4G;ACTIF;42.2;63.1;2021-03-16;Rue 14, Quartier Campus;Douala;Littoral;4.013689;9.668933
+Site Douala Gare routière 028;ANT-NXT-0028;Nexttel (Viettel);MACRO_CELL;4G;ACTIF;15.2;66.3;2016-01-14;Rue 41, Quartier Campus;Douala;Littoral;4.08478;9.735449
+Site Douala Quartier admin. 029;ANT-MTN-0029;MTN Cameroun;MACRO_CELL;4G;ACTIF;39.6;70.1;2015-02-09;Rue 38, Quartier Zone industrielle;Douala;Littoral;4.052951;9.697792
+Site Douala Centre-ville 030;ANT-NXT-0030;Nexttel (Viettel);MACRO_CELL;3G;ACTIF;45.7;60.0;2025-06-18;Rue 23, Quartier Gare routière;Douala;Littoral;4.007065;9.692119
+Site Douala Zone industrielle 031;ANT-MTN-0031;MTN Cameroun;MICRO_CELL;3G;ACTIF;23.1;75.5;2024-02-03;Rue 51, Quartier Gare routière;Douala;Littoral;4.081115;9.747159
+Site Douala Centre-ville 032;ANT-MTN-0032;MTN Cameroun;MICRO_CELL;4G;ACTIF;24.0;75.1;2019-04-16;Rue 23, Quartier Campus;Douala;Littoral;4.017628;9.722415
+Site Douala Campus 033;ANT-MTN-0033;MTN Cameroun;MACRO_CELL;3G;ACTIF;30.8;50.6;2018-09-06;Rue 44, Quartier Aéroport;Douala;Littoral;4.00543;9.676682
+Site Douala Campus 034;ANT-CMT-0034;CAMTEL;MACRO_CELL;2G;ACTIF;41.8;40.7;2021-07-06;Rue 51, Quartier Aéroport;Douala;Littoral;4.082233;9.682809
+Site Douala Marché central 035;ANT-NXT-0035;Nexttel (Viettel);MACRO_CELL;5G;ACTIF;46.9;20.1;2025-02-01;Rue 60, Quartier Marché central;Douala;Littoral;4.091881;9.669708
+Site Douala Aéroport 036;ANT-ORC-0036;Orange Cameroun;PICO_CELL;4G;ACTIF;47.4;38.0;2018-09-14;Rue 20, Quartier Gare routière;Douala;Littoral;4.009598;9.719081
+Site Douala Gare routière 037;ANT-ORC-0037;Orange Cameroun;PICO_CELL;4G;ACTIF;45.5;74.2;2017-02-24;Rue 40, Quartier Campus;Douala;Littoral;4.066049;9.709197
+Site Douala Gare routière 038;ANT-NXT-0038;Nexttel (Viettel);ROOFTOP;5G;HORS_SERVICE;44.5;47.9;2017-05-10;Rue 29, Quartier Marché central;Douala;Littoral;4.078335;9.686649
+Site Bafoussam Aéroport 039;ANT-NXT-0039;Nexttel (Viettel);MACRO_CELL;3G;ACTIF;45.3;33.5;2022-06-12;Rue 13, Quartier Zone industrielle;Bafoussam;Ouest;5.492397;10.398141
+Site Bafoussam Quartier admin. 040;ANT-CMT-0040;CAMTEL;MICRO_CELL;2G;ACTIF;54.9;54.5;2024-07-12;Rue 46, Quartier Gare routière;Bafoussam;Ouest;5.455136;10.415362

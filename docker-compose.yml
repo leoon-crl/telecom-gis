@@ -1,0 +1,61 @@
+# ─────────────────────────────────────────────────────────────
+# ART TELECOM GIS — Orchestration complète
+#   docker compose up --build
+#
+#   Frontend  : http://localhost:5173
+#   Backend   : http://localhost:8000   (Swagger : /docs)
+#   PostgreSQL: localhost:5432
+# ─────────────────────────────────────────────────────────────
+services:
+
+  # ── Base de données spatiale PostgreSQL + PostGIS ──
+  base_de_donnees:
+    image: postgis/postgis:16-3.4
+    container_name: artgis_postgres
+    environment:
+      POSTGRES_DB: telecom_gis
+      POSTGRES_USER: telecom
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-telecom2026}
+    ports:
+      - "5432:5432"
+    volumes:
+      - donnees_postgres:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U telecom -d telecom_gis"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # ── Backend FastAPI ──
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: artgis_backend
+    environment:
+      DATABASE_URL: postgresql+psycopg2://telecom:${POSTGRES_PASSWORD:-telecom2026}@base_de_donnees:5432/telecom_gis
+      SECRET_KEY: ${SECRET_KEY:-art-telecom-gis-cle-jwt-a-changer-en-production}
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-480}
+      CORS_ORIGINS: http://localhost:5173,http://localhost:3000,http://localhost:4173
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-telecom2026}
+    ports:
+      - "8000:8000"
+    depends_on:
+      base_de_donnees:
+        condition: service_healthy
+    # Génère les données de démonstration puis démarre l'API
+    command: >
+      sh -c "python /application/seed.py && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+
+  # ── Frontend React (Nginx) ──
+  frontend:
+    build: ./frontend
+    container_name: artgis_frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+
+volumes:
+  donnees_postgres:

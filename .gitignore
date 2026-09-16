@@ -1,0 +1,28 @@
+# ── Secrets / configuration locale ──
+.env
+backend/.env
+*.key
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Node / React ──
+node_modules/
+frontend/dist/
+*.local
+
+# ── Environnement / IDE ──
+.vscode/
+.idea/
+.DS_Store
+
+# ── Données volumineuses générées (conserver les échantillons data/) ──
+*.log
+tools/

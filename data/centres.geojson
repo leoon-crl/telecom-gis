@@ -1,0 +1,605 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.711029,
+          4.035793
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique CMT Douala 01",
+        "code": "CT-CMT-001",
+        "operateur": "CAMTEL",
+        "type": "CENTRE DE RATACHEMENT",
+        "statut": "ACTIF",
+        "ville": "Douala",
+        "region": "Littoral",
+        "capacite": "40 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.704605,
+          4.059756
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Douala 02",
+        "code": "CT-ORC-002",
+        "operateur": "Orange Cameroun",
+        "type": "NŒUD DE COMMUTATION",
+        "statut": "MAINTENANCE",
+        "ville": "Douala",
+        "region": "Littoral",
+        "capacite": "100 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.516632,
+          3.862175
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique CMT Yaoundé 03",
+        "code": "CT-CMT-003",
+        "operateur": "CAMTEL",
+        "type": "STATION DE BASE",
+        "statut": "ACTIF",
+        "ville": "Yaoundé",
+        "region": "Centre",
+        "capacite": "NGN — 40 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.52683,
+          3.876018
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique CMT Yaoundé 04",
+        "code": "CT-CMT-004",
+        "operateur": "CAMTEL",
+        "type": "CENTRE DE RATACHEMENT",
+        "statut": "ACTIF",
+        "ville": "Yaoundé",
+        "region": "Centre",
+        "capacite": "12 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.423312,
+          5.471642
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Bafoussam 05",
+        "code": "CT-ORC-005",
+        "operateur": "Orange Cameroun",
+        "type": "DATA CENTER",
+        "statut": "ACTIF",
+        "ville": "Bafoussam",
+        "region": "Ouest",
+        "capacite": "100 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.435344,
+          5.486742
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique NXT Bafoussam 06",
+        "code": "CT-NXT-006",
+        "operateur": "Nexttel (Viettel)",
+        "type": "STATION DE BASE",
+        "statut": "ACTIF",
+        "ville": "Bafoussam",
+        "region": "Ouest",
+        "capacite": "5 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.376024,
+          5.975132
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique CMT Bamenda 07",
+        "code": "CT-CMT-007",
+        "operateur": "CAMTEL",
+        "type": "CENTRE DE RATACHEMENT",
+        "statut": "ACTIF",
+        "ville": "Bamenda",
+        "region": "Nord-Ouest",
+        "capacite": "12 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.389276,
+          5.941165
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Bamenda 08",
+        "code": "CT-ORC-008",
+        "operateur": "Orange Cameroun",
+        "type": "STATION DE BASE",
+        "statut": "PROJET",
+        "ville": "Bamenda",
+        "region": "Nord-Ouest",
+        "capacite": "25 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.413174,
+          9.292329
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Garoua 09",
+        "code": "CT-ORC-009",
+        "operateur": "Orange Cameroun",
+        "type": "CENTRE DE RATACHEMENT",
+        "statut": "ACTIF",
+        "ville": "Garoua",
+        "region": "Nord",
+        "capacite": "25 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.450148,
+          10.614049
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique NXT Maroua 10",
+        "code": "CT-NXT-010",
+        "operateur": "Nexttel (Viettel)",
+        "type": "STATION DE BASE",
+        "statut": "ACTIF",
+        "ville": "Maroua",
+        "region": "Extrême-Nord",
+        "capacite": "25 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.565957,
+          7.325983
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique NXT Ngaoundéré 11",
+        "code": "CT-NXT-011",
+        "operateur": "Nexttel (Viettel)",
+        "type": "CENTRE DE RATACHEMENT",
+        "statut": "MAINTENANCE",
+        "ville": "Ngaoundéré",
+        "region": "Adamaoua",
+        "capacite": "5 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.676626,
+          4.570217
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique MTN Bertoua 12",
+        "code": "CT-MTN-012",
+        "operateur": "MTN Cameroun",
+        "type": "CENTRE DE RATACHEMENT",
+        "statut": "ACTIF",
+        "ville": "Bertoua",
+        "region": "Est",
+        "capacite": "5 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.131894,
+          2.894062
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique NXT Ebolowa 13",
+        "code": "CT-NXT-013",
+        "operateur": "Nexttel (Viettel)",
+        "type": "STATION DE BASE",
+        "statut": "ACTIF",
+        "ville": "Ebolowa",
+        "region": "Sud",
+        "capacite": "40 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.297201,
+          4.005702
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Limbe 14",
+        "code": "CT-ORC-014",
+        "operateur": "Orange Cameroun",
+        "type": "STATION DE BASE",
+        "statut": "ACTIF",
+        "ville": "Limbe",
+        "region": "Sud-Ouest",
+        "capacite": "5 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.889692,
+          2.949852
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique MTN Kribi 15",
+        "code": "CT-MTN-015",
+        "operateur": "MTN Cameroun",
+        "type": "NŒUD DE COMMUTATION",
+        "statut": "ACTIF",
+        "ville": "Kribi",
+        "region": "Sud",
+        "capacite": "NGN — 40 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.943397,
+          4.940838
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Nkongsamba 16",
+        "code": "CT-ORC-016",
+        "operateur": "Orange Cameroun",
+        "type": "STATION DE BASE",
+        "statut": "PROJET",
+        "ville": "Nkongsamba",
+        "region": "Littoral",
+        "capacite": "100 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.049221,
+          5.447478
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Dschang 17",
+        "code": "CT-ORC-017",
+        "operateur": "Orange Cameroun",
+        "type": "STATION DE BASE",
+        "statut": "ACTIF",
+        "ville": "Dschang",
+        "region": "Ouest",
+        "capacite": "12 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.895479,
+          5.716662
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique MTN Foumban 18",
+        "code": "CT-MTN-018",
+        "operateur": "MTN Cameroun",
+        "type": "NŒUD DE COMMUTATION",
+        "statut": "ACTIF",
+        "ville": "Foumban",
+        "region": "Ouest",
+        "capacite": "12 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.329945,
+          5.757759
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Mamfe 19",
+        "code": "CT-ORC-019",
+        "operateur": "Orange Cameroun",
+        "type": "STATION DE BASE",
+        "statut": "ACTIF",
+        "ville": "Mamfe",
+        "region": "Sud-Ouest",
+        "capacite": "25 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.168382,
+          6.526714
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique MTN Meiganga 20",
+        "code": "CT-MTN-020",
+        "operateur": "MTN Cameroun",
+        "type": "STATION DE BASE",
+        "statut": "ACTIF",
+        "ville": "Meiganga",
+        "region": "Adamaoua",
+        "capacite": "25 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.789405,
+          4.91897
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Bélabo 21",
+        "code": "CT-ORC-021",
+        "operateur": "Orange Cameroun",
+        "type": "DATA CENTER",
+        "statut": "ACTIF",
+        "ville": "Bélabo",
+        "region": "Est",
+        "capacite": "100 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38932,
+          2.368696
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique CMT Ambam 22",
+        "code": "CT-CMT-022",
+        "operateur": "CAMTEL",
+        "type": "CENTRE DE RATACHEMENT",
+        "statut": "PROJET",
+        "ville": "Ambam",
+        "region": "Sud",
+        "capacite": "25 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.27465,
+          4.035634
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique NXT Limbe 23",
+        "code": "CT-NXT-023",
+        "operateur": "Nexttel (Viettel)",
+        "type": "STATION DE BASE",
+        "statut": "MAINTENANCE",
+        "ville": "Limbe",
+        "region": "Sud-Ouest",
+        "capacite": "40 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.921462,
+          2.923733
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique CMT Kribi 24",
+        "code": "CT-CMT-024",
+        "operateur": "CAMTEL",
+        "type": "STATION DE BASE",
+        "statut": "ACTIF",
+        "ville": "Kribi",
+        "region": "Sud",
+        "capacite": "25 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.302165,
+          5.750724
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique MTN Mamfe 25",
+        "code": "CT-MTN-025",
+        "operateur": "MTN Cameroun",
+        "type": "DATA CENTER",
+        "statut": "ACTIF",
+        "ville": "Mamfe",
+        "region": "Sud-Ouest",
+        "capacite": "5 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.455702,
+          10.585124
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Maroua 26",
+        "code": "CT-ORC-026",
+        "operateur": "Orange Cameroun",
+        "type": "DATA CENTER",
+        "statut": "ACTIF",
+        "ville": "Maroua",
+        "region": "Extrême-Nord",
+        "capacite": "5 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.296745,
+          5.750103
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique ORC Mamfe 27",
+        "code": "CT-ORC-027",
+        "operateur": "Orange Cameroun",
+        "type": "DATA CENTER",
+        "statut": "ACTIF",
+        "ville": "Mamfe",
+        "region": "Sud-Ouest",
+        "capacite": "5 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.232545,
+          10.353701
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique MTN Yagoua 28",
+        "code": "CT-MTN-028",
+        "operateur": "MTN Cameroun",
+        "type": "DATA CENTER",
+        "statut": "HORS_SERVICE",
+        "ville": "Yagoua",
+        "region": "Extrême-Nord",
+        "capacite": "25 000 abonnés"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.358432,
+          2.360586
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique CMT Ambam 29",
+        "code": "CT-CMT-029",
+        "operateur": "CAMTEL",
+        "type": "NŒUD DE COMMUTATION",
+        "statut": "ACTIF",
+        "ville": "Ambam",
+        "region": "Sud",
+        "capacite": "100 Gbps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.222084,
+          10.345676
+        ]
+      },
+      "properties": {
+        "nom": "Centre technique NXT Yagoua 30",
+        "code": "CT-NXT-030",
+        "operateur": "Nexttel (Viettel)",
+        "type": "NŒUD DE COMMUTATION",
+        "statut": "ACTIF",
+        "ville": "Yagoua",
+        "region": "Extrême-Nord",
+        "capacite": "25 000 abonnés"
+      }
+    }
+  ]
+}

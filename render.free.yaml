@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# ART TELECOM GIS — Blueprint Render 100 % GRATUIT (sans carte bancaire)
+#
+# ⚠️  NOTE 2025 : Render exige désormais une carte bancaire (vérification 1 $)
+#     pour les déploiements Blueprint — même sur le plan Free. Sans carte,
+#     utilisez la méthode sans carte : HEBERGEMENT_GRATUIT.md
+#     (Hugging Face Spaces + Netlify + Neon).
+#
+# Base de données : à créer gratuitement sur Neon (neon.tech) — voir
+# HEBERGEMENT_GRATUIT.md. L'URL Neon sera demandée au moment du déploiement.
+#
+# DÉPLOIEMENT :
+#   Render → « New + » → « Blueprint » → sélectionner ce dépôt
+#   → champ « Blueprint File » : render.free.yaml → Apply
+#
+# Coût total : 0 $ (API : web service Free — Frontend : site statique Free —
+# Base : plan Free Neon).
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+  # ── Backend FastAPI (Docker) ──
+  - type: web
+    name: art-telecom-gis-api
+    runtime: docker
+    plan: free                 # Gratuit — mise en veille après 15 min d'inactivité
+    region: frankfurt
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    # ⚠️ Pas de preDeployCommand : non supporté par le plan Free de Render.
+    # Les tables et les données de démonstration sont générées automatiquement
+    # au démarrage de l'API (seed idempotent — voir app/main.py et scripts/seed.py).
+    envVars:
+      - key: DATABASE_URL
+        sync: false            # ← coller ici l'URL Neon : postgresql://…?sslmode=require
+      - key: SECRET_KEY
+        generateValue: true    # Clé JWT aléatoire générée par Render
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: 480
+      - key: CORS_ORIGINS
+        value: https://art-telecom-gis.onrender.com,http://localhost:5173,http://localhost:3000
+
+  # ── Frontend React (site statique) — gratuit par nature, pas de champ plan ──
+  - type: web
+    name: art-telecom-gis
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        sync: false            # ← coller ici l'URL réelle de l'API (https://…onrender.com)
+    routes:
+      # Routage SPA : toute URL non statique renvoie index.html (React Router)
+      - type: rewrite
+        source: /*
+        destination: /index.html

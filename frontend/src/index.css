@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-art-bg text-slate-800 antialiased;
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Scrollbars discrets */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(11, 36, 71, 0.22);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(11, 36, 71, 0.4);
+}
+
+/* ── Carte Leaflet ── */
+.leaflet-container {
+  font-family: inherit;
+  background: #0d1b2a;
+  /* Conteneur = contexte d'empilement : les panneaux absolus (z-20) restent au-dessus des tuiles */
+  position: relative;
+  z-index: 0;
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  box-shadow: 0 10px 32px rgba(11, 36, 71, 0.35);
+}
+.leaflet-popup-content {
+  margin: 14px 16px;
+  min-width: 230px;
+}
+.maplibre-panel {
+  @apply rounded-xl bg-white/95 p-4 shadow-panel backdrop-blur-md;
+}
+
+/* Marqueurs personnalisés */
+.art-marker {
+  background: transparent !important;
+  border: none !important;
+}
+.art-marker svg {
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.45));
+  transition: transform 0.15s ease;
+}
+.art-marker:hover svg {
+  transform: scale(1.12);
+}
+
+/* Clusters */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-color: rgba(0, 132, 61, 0.25) !important;
+}
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background-color: rgba(0, 132, 61, 0.85) !important;
+  color: white !important;
+  font-weight: 600 !important;
+  font-family: inherit !important;
+}
+
+/* Badges de statut */
+.badge {
+  @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold;
+}
+
+/* En-têtes de tableaux */
+.table-art th {
+  @apply whitespace-nowrap px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-slate-500;
+}
+.table-art td {
+  @apply whitespace-nowrap px-4 py-3 text-sm;
+}
+.table-art tbody tr {
+  @apply border-t border-slate-100 transition-colors hover:bg-art-bg/70;
+}
+
+/* Animations */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-up {
+  animation: fade-up 0.25s ease both;
+}

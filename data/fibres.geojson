@@ -1,0 +1,1325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.7043,
+            4.0483
+          ],
+          [
+            9.96216,
+            3.99749
+          ],
+          [
+            10.42748,
+            3.90463
+          ],
+          [
+            10.82034,
+            3.89436
+          ],
+          [
+            11.21063,
+            3.95923
+          ],
+          [
+            11.5217,
+            3.8667
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Douala – Yaoundé",
+        "code": "FIB-MTN-001",
+        "operateur": "MTN Cameroun",
+        "type": "SOUTERRAIN",
+        "capacite": "96 fibres",
+        "statut": "ACTIF",
+        "origine": "Douala",
+        "destination": "Yaoundé",
+        "date_installation": "2021-04-19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.7043,
+            4.0483
+          ],
+          [
+            9.58905,
+            3.95571
+          ],
+          [
+            9.39015,
+            4.14239
+          ],
+          [
+            9.48225,
+            4.00945
+          ],
+          [
+            9.2917,
+            4.0227
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Douala – Limbe",
+        "code": "FIB-CMT-002",
+        "operateur": "CAMTEL",
+        "type": "AERIEN",
+        "capacite": "288 fibres",
+        "statut": "ACTIF",
+        "origine": "Douala",
+        "destination": "Limbe",
+        "date_installation": "2018-07-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.7043,
+            4.0483
+          ],
+          [
+            9.8357,
+            3.91968
+          ],
+          [
+            9.85326,
+            3.98982
+          ],
+          [
+            10.0994,
+            3.8003
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Douala – Edéa",
+        "code": "FIB-MTN-003",
+        "operateur": "MTN Cameroun",
+        "type": "SOUTERRAIN",
+        "capacite": "288 fibres",
+        "statut": "ACTIF",
+        "origine": "Douala",
+        "destination": "Edéa",
+        "date_installation": "2015-07-19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.0994,
+            3.8003
+          ],
+          [
+            10.492,
+            3.80984
+          ],
+          [
+            10.81936,
+            3.91682
+          ],
+          [
+            11.14955,
+            3.94189
+          ],
+          [
+            11.5217,
+            3.8667
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Edéa – Yaoundé",
+        "code": "FIB-CMT-004",
+        "operateur": "CAMTEL",
+        "type": "AERIEN",
+        "capacite": "24 fibres",
+        "statut": "ACTIF",
+        "origine": "Edéa",
+        "destination": "Yaoundé",
+        "date_installation": "2015-07-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.5217,
+            3.8667
+          ],
+          [
+            11.2467,
+            4.33301
+          ],
+          [
+            10.91678,
+            4.78978
+          ],
+          [
+            10.73692,
+            4.98376
+          ],
+          [
+            10.4176,
+            5.4781
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Yaoundé – Bafoussam",
+        "code": "FIB-MTN-005",
+        "operateur": "MTN Cameroun",
+        "type": "AERIEN",
+        "capacite": "288 fibres",
+        "statut": "ACTIF",
+        "origine": "Yaoundé",
+        "destination": "Bafoussam",
+        "date_installation": "2023-06-20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.4176,
+            5.4781
+          ],
+          [
+            10.29586,
+            5.52797
+          ],
+          [
+            10.44606,
+            5.87212
+          ],
+          [
+            10.3834,
+            5.9597
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Bafoussam – Bamenda",
+        "code": "FIB-MTN-006",
+        "operateur": "MTN Cameroun",
+        "type": "SOUTERRAIN",
+        "capacite": "96 fibres",
+        "statut": "HORS_SERVICE",
+        "origine": "Bafoussam",
+        "destination": "Bamenda",
+        "date_installation": "2021-11-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.5217,
+            3.8667
+          ],
+          [
+            11.48009,
+            3.56696
+          ],
+          [
+            11.27579,
+            3.22456
+          ],
+          [
+            11.1502,
+            2.9
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Yaoundé – Ebolowa",
+        "code": "FIB-ORC-007",
+        "operateur": "Orange Cameroun",
+        "type": "MIXTE",
+        "capacite": "24 fibres",
+        "statut": "ACTIF",
+        "origine": "Yaoundé",
+        "destination": "Ebolowa",
+        "date_installation": "2018-09-18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.5217,
+            3.8667
+          ],
+          [
+            11.66744,
+            3.72449
+          ],
+          [
+            11.59142,
+            3.48592
+          ],
+          [
+            11.90878,
+            3.37258
+          ],
+          [
+            11.95462,
+            3.13597
+          ],
+          [
+            11.98,
+            2.93
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Yaoundé – Sangmélima",
+        "code": "FIB-CMT-008",
+        "operateur": "CAMTEL",
+        "type": "SOUTERRAIN",
+        "capacite": "288 fibres",
+        "statut": "ACTIF",
+        "origine": "Yaoundé",
+        "destination": "Sangmélima",
+        "date_installation": "2023-02-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.1502,
+            2.9
+          ],
+          [
+            11.24088,
+            2.77146
+          ],
+          [
+            11.22252,
+            2.53252
+          ],
+          [
+            11.37,
+            2.37
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Ebolowa – Ambam",
+        "code": "FIB-NXT-009",
+        "operateur": "Nexttel (Viettel)",
+        "type": "SOUTERRAIN",
+        "capacite": "144 fibres",
+        "statut": "ACTIF",
+        "origine": "Ebolowa",
+        "destination": "Ambam",
+        "date_installation": "2023-09-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.9083,
+            2.9386
+          ],
+          [
+            10.01846,
+            3.489
+          ],
+          [
+            10.0994,
+            3.8003
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Kribi – Edéa",
+        "code": "FIB-NXT-010",
+        "operateur": "Nexttel (Viettel)",
+        "type": "SOUTERRAIN",
+        "capacite": "144 fibres",
+        "statut": "HORS_SERVICE",
+        "origine": "Kribi",
+        "destination": "Edéa",
+        "date_installation": "2020-12-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.3834,
+            5.9597
+          ],
+          [
+            10.15843,
+            5.98015
+          ],
+          [
+            9.79015,
+            5.85105
+          ],
+          [
+            9.68811,
+            5.74939
+          ],
+          [
+            9.31,
+            5.75
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Bamenda – Mamfe",
+        "code": "FIB-ORC-011",
+        "operateur": "Orange Cameroun",
+        "type": "AERIEN",
+        "capacite": "96 fibres",
+        "statut": "ACTIF",
+        "origine": "Bamenda",
+        "destination": "Mamfe",
+        "date_installation": "2017-04-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.45,
+            4.64
+          ],
+          [
+            9.61785,
+            4.54527
+          ],
+          [
+            9.52622,
+            4.36178
+          ],
+          [
+            9.65109,
+            4.29121
+          ],
+          [
+            9.7043,
+            4.0483
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Kumba – Douala",
+        "code": "FIB-NXT-012",
+        "operateur": "Nexttel (Viettel)",
+        "type": "SOUTERRAIN",
+        "capacite": "96 fibres",
+        "statut": "ACTIF",
+        "origine": "Kumba",
+        "destination": "Douala",
+        "date_installation": "2018-03-24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.45,
+            4.64
+          ],
+          [
+            9.46979,
+            4.41703
+          ],
+          [
+            9.44956,
+            4.27642
+          ],
+          [
+            9.34616,
+            4.12221
+          ],
+          [
+            9.2917,
+            4.0227
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Kumba – Limbe",
+        "code": "FIB-CMT-013",
+        "operateur": "CAMTEL",
+        "type": "SOUTERRAIN",
+        "capacite": "48 fibres",
+        "statut": "ACTIF",
+        "origine": "Kumba",
+        "destination": "Limbe",
+        "date_installation": "2022-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.4176,
+            5.4781
+          ],
+          [
+            10.34833,
+            5.37163
+          ],
+          [
+            10.23972,
+            5.33814
+          ],
+          [
+            10.0533,
+            5.4463
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Bafoussam – Dschang",
+        "code": "FIB-MTN-014",
+        "operateur": "MTN Cameroun",
+        "type": "MIXTE",
+        "capacite": "144 fibres",
+        "statut": "ACTIF",
+        "origine": "Bafoussam",
+        "destination": "Dschang",
+        "date_installation": "2022-04-18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.4176,
+            5.4781
+          ],
+          [
+            10.6361,
+            5.43922
+          ],
+          [
+            10.67659,
+            5.60584
+          ],
+          [
+            10.83295,
+            5.76185
+          ],
+          [
+            10.9,
+            5.7167
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Bafoussam – Foumban",
+        "code": "FIB-MTN-015",
+        "operateur": "MTN Cameroun",
+        "type": "SOUTERRAIN",
+        "capacite": "24 fibres",
+        "statut": "PROJET",
+        "origine": "Bafoussam",
+        "destination": "Foumban",
+        "date_installation": "2019-06-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.9,
+            5.7167
+          ],
+          [
+            11.30558,
+            6.16155
+          ],
+          [
+            11.38889,
+            6.44188
+          ],
+          [
+            11.81,
+            6.78
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Foumban – Banyo",
+        "code": "FIB-NXT-016",
+        "operateur": "Nexttel (Viettel)",
+        "type": "AERIEN",
+        "capacite": "144 fibres",
+        "statut": "ACTIF",
+        "origine": "Foumban",
+        "destination": "Banyo",
+        "date_installation": "2021-02-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.5217,
+            3.8667
+          ],
+          [
+            12.19741,
+            4.12817
+          ],
+          [
+            12.93957,
+            4.56571
+          ],
+          [
+            13.77,
+            4.93
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Yaoundé – Bélabo",
+        "code": "FIB-NXT-017",
+        "operateur": "Nexttel (Viettel)",
+        "type": "AERIEN",
+        "capacite": "96 fibres",
+        "statut": "ACTIF",
+        "origine": "Yaoundé",
+        "destination": "Bélabo",
+        "date_installation": "2022-07-25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.77,
+            4.93
+          ],
+          [
+            13.71892,
+            4.79502
+          ],
+          [
+            13.6719,
+            4.67093
+          ],
+          [
+            13.6848,
+            4.5771
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Bélabo – Bertoua",
+        "code": "FIB-MTN-018",
+        "operateur": "MTN Cameroun",
+        "type": "MIXTE",
+        "capacite": "96 fibres",
+        "statut": "HORS_SERVICE",
+        "origine": "Bélabo",
+        "destination": "Bertoua",
+        "date_installation": "2017-10-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.6848,
+            4.5771
+          ],
+          [
+            13.80018,
+            4.50194
+          ],
+          [
+            14.04719,
+            4.52604
+          ],
+          [
+            14.14147,
+            4.44057
+          ],
+          [
+            14.37,
+            4.44
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Bertoua – Batouri",
+        "code": "FIB-CMT-019",
+        "operateur": "CAMTEL",
+        "type": "MIXTE",
+        "capacite": "96 fibres",
+        "statut": "ACTIF",
+        "origine": "Bertoua",
+        "destination": "Batouri",
+        "date_installation": "2019-07-19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.77,
+            4.93
+          ],
+          [
+            13.69561,
+            4.68655
+          ],
+          [
+            13.6848,
+            4.5771
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Bélabo – Bertoua",
+        "code": "FIB-ORC-020",
+        "operateur": "Orange Cameroun",
+        "type": "MIXTE",
+        "capacite": "288 fibres",
+        "statut": "ACTIF",
+        "origine": "Bélabo",
+        "destination": "Bertoua",
+        "date_installation": "2019-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5828,
+            7.3169
+          ],
+          [
+            13.01486,
+            7.2069
+          ],
+          [
+            12.40705,
+            6.96573
+          ],
+          [
+            11.81,
+            6.78
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Ngaoundéré – Banyo",
+        "code": "FIB-NXT-021",
+        "operateur": "Nexttel (Viettel)",
+        "type": "SOUTERRAIN",
+        "capacite": "24 fibres",
+        "statut": "PROJET",
+        "origine": "Ngaoundéré",
+        "destination": "Banyo",
+        "date_installation": "2021-02-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5828,
+            7.3169
+          ],
+          [
+            13.76124,
+            7.09454
+          ],
+          [
+            14.01966,
+            6.78295
+          ],
+          [
+            14.16,
+            6.52
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Ngaoundéré – Meiganga",
+        "code": "FIB-MTN-022",
+        "operateur": "MTN Cameroun",
+        "type": "SOUTERRAIN",
+        "capacite": "144 fibres",
+        "statut": "ACTIF",
+        "origine": "Ngaoundéré",
+        "destination": "Meiganga",
+        "date_installation": "2020-10-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5828,
+            7.3169
+          ],
+          [
+            13.58794,
+            7.66776
+          ],
+          [
+            13.39538,
+            8.05177
+          ],
+          [
+            13.35456,
+            8.4399
+          ],
+          [
+            13.33505,
+            8.88619
+          ],
+          [
+            13.4012,
+            9.3014
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Ngaoundéré – Garoua",
+        "code": "FIB-NXT-023",
+        "operateur": "Nexttel (Viettel)",
+        "type": "SOUTERRAIN",
+        "capacite": "24 fibres",
+        "statut": "HORS_SERVICE",
+        "origine": "Ngaoundéré",
+        "destination": "Garoua",
+        "date_installation": "2020-04-17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4012,
+            9.3014
+          ],
+          [
+            13.6572,
+            9.19085
+          ],
+          [
+            13.82061,
+            8.83159
+          ],
+          [
+            14.09609,
+            8.59715
+          ],
+          [
+            14.17,
+            8.4
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Garoua – Tcholliré",
+        "code": "FIB-CMT-024",
+        "operateur": "CAMTEL",
+        "type": "MIXTE",
+        "capacite": "24 fibres",
+        "statut": "ACTIF",
+        "origine": "Garoua",
+        "destination": "Tcholliré",
+        "date_installation": "2025-10-24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4012,
+            9.3014
+          ],
+          [
+            13.51023,
+            9.35411
+          ],
+          [
+            13.78549,
+            9.66606
+          ],
+          [
+            13.86678,
+            9.84269
+          ],
+          [
+            13.94,
+            9.87
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Garoua – Guider",
+        "code": "FIB-MTN-025",
+        "operateur": "MTN Cameroun",
+        "type": "MIXTE",
+        "capacite": "288 fibres",
+        "statut": "ACTIF",
+        "origine": "Garoua",
+        "destination": "Guider",
+        "date_installation": "2024-03-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.94,
+            9.87
+          ],
+          [
+            14.03534,
+            10.20175
+          ],
+          [
+            14.34392,
+            10.24113
+          ],
+          [
+            14.4503,
+            10.5951
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Guider – Maroua",
+        "code": "FIB-MTN-026",
+        "operateur": "MTN Cameroun",
+        "type": "SOUTERRAIN",
+        "capacite": "48 fibres",
+        "statut": "ACTIF",
+        "origine": "Guider",
+        "destination": "Maroua",
+        "date_installation": "2015-10-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4503,
+            10.5951
+          ],
+          [
+            14.21448,
+            10.60629
+          ],
+          [
+            13.8,
+            10.74
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Maroua – Mokolo",
+        "code": "FIB-CMT-027",
+        "operateur": "CAMTEL",
+        "type": "SOUTERRAIN",
+        "capacite": "24 fibres",
+        "statut": "ACTIF",
+        "origine": "Maroua",
+        "destination": "Mokolo",
+        "date_installation": "2020-08-25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4503,
+            10.5951
+          ],
+          [
+            14.66674,
+            10.53357
+          ],
+          [
+            15.01151,
+            10.38199
+          ],
+          [
+            15.23,
+            10.34
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Maroua – Yagoua",
+        "code": "FIB-ORC-028",
+        "operateur": "Orange Cameroun",
+        "type": "SOUTERRAIN",
+        "capacite": "144 fibres",
+        "statut": "ACTIF",
+        "origine": "Maroua",
+        "destination": "Yagoua",
+        "date_installation": "2018-02-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.23,
+            10.34
+          ],
+          [
+            15.16228,
+            11.03002
+          ],
+          [
+            15.20265,
+            11.53446
+          ],
+          [
+            15.03,
+            12.07
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Yagoua – Kousséri",
+        "code": "FIB-CMT-029",
+        "operateur": "CAMTEL",
+        "type": "MIXTE",
+        "capacite": "144 fibres",
+        "statut": "ACTIF",
+        "origine": "Yagoua",
+        "destination": "Kousséri",
+        "date_installation": "2018-05-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4503,
+            10.5951
+          ],
+          [
+            14.75071,
+            10.38224
+          ],
+          [
+            14.93325,
+            10.33842
+          ],
+          [
+            15.1,
+            10.1
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Maroua – Kaélé",
+        "code": "FIB-NXT-030",
+        "operateur": "Nexttel (Viettel)",
+        "type": "MIXTE",
+        "capacite": "288 fibres",
+        "statut": "ACTIF",
+        "origine": "Maroua",
+        "destination": "Kaélé",
+        "date_installation": "2016-07-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5828,
+            7.3169
+          ],
+          [
+            13.67751,
+            7.66588
+          ],
+          [
+            13.94333,
+            8.04752
+          ],
+          [
+            14.17,
+            8.4
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Ngaoundéré – Tcholliré",
+        "code": "FIB-NXT-031",
+        "operateur": "Nexttel (Viettel)",
+        "type": "MIXTE",
+        "capacite": "288 fibres",
+        "statut": "ACTIF",
+        "origine": "Ngaoundéré",
+        "destination": "Tcholliré",
+        "date_installation": "2015-06-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.5217,
+            3.8667
+          ],
+          [
+            11.03741,
+            4.16145
+          ],
+          [
+            10.40097,
+            4.68972
+          ],
+          [
+            9.9454,
+            4.9547
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Yaoundé – Nkongsamba",
+        "code": "FIB-CMT-032",
+        "operateur": "CAMTEL",
+        "type": "SOUTERRAIN",
+        "capacite": "48 fibres",
+        "statut": "ACTIF",
+        "origine": "Yaoundé",
+        "destination": "Nkongsamba",
+        "date_installation": "2016-04-25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.9454,
+            4.9547
+          ],
+          [
+            9.95656,
+            5.05601
+          ],
+          [
+            9.97452,
+            5.23037
+          ],
+          [
+            10.0533,
+            5.4463
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Nkongsamba – Dschang",
+        "code": "FIB-NXT-033",
+        "operateur": "Nexttel (Viettel)",
+        "type": "AERIEN",
+        "capacite": "96 fibres",
+        "statut": "ACTIF",
+        "origine": "Nkongsamba",
+        "destination": "Dschang",
+        "date_installation": "2020-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.3834,
+            5.9597
+          ],
+          [
+            10.38292,
+            5.94492
+          ],
+          [
+            10.49652,
+            5.73603
+          ],
+          [
+            10.38326,
+            5.68575
+          ],
+          [
+            10.34387,
+            5.48944
+          ],
+          [
+            10.4176,
+            5.4781
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Bamenda – Bafoussam",
+        "code": "FIB-NXT-034",
+        "operateur": "Nexttel (Viettel)",
+        "type": "MIXTE",
+        "capacite": "96 fibres",
+        "statut": "ACTIF",
+        "origine": "Bamenda",
+        "destination": "Bafoussam",
+        "date_installation": "2017-03-14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.241,
+            4.1527
+          ],
+          [
+            9.25773,
+            4.14647
+          ],
+          [
+            9.31916,
+            4.00779
+          ],
+          [
+            9.2917,
+            4.0227
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Buea – Limbe",
+        "code": "FIB-ORC-035",
+        "operateur": "Orange Cameroun",
+        "type": "MIXTE",
+        "capacite": "144 fibres",
+        "statut": "ACTIF",
+        "origine": "Buea",
+        "destination": "Limbe",
+        "date_installation": "2023-03-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.7043,
+            4.0483
+          ],
+          [
+            9.69647,
+            3.77185
+          ],
+          [
+            9.95798,
+            3.41824
+          ],
+          [
+            9.9083,
+            2.9386
+          ]
+        ]
+      },
+      "properties": {
+        "nom": "Backbone Douala – Kribi",
+        "code": "FIB-ORC-036",
+        "operateur": "Orange Cameroun",
+        "type": "SOUTERRAIN",
+        "capacite": "24 fibres",
+        "statut": "MAINTENANCE",
+        "origine": "Douala",
+        "destination": "Kribi",
+        "date_installation": "2015-01-27"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Configuration Netlify — ART TELECOM GIS (frontend React/Vite)
+# Déploiement : importer le dépôt GitHub avec Base directory = « frontend »
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Routage SPA React Router : toute URL non statique renvoie index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

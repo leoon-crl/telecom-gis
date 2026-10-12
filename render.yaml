@@ -1,57 +1,27 @@
-# ─────────────────────────────────────────────────────────────────────────────
-# ART TELECOM GIS — Blueprint de déploiement Render
-# Plateforme SIG de cartographie des infrastructures de télécommunications
-# Agence de Régulation des Télécommunications (ART) — Prototype académique
-#
-# DÉPLOIEMENT EN UN CLIC :
-#   Tableau de bord Render → « New + » → « Blueprint » → sélectionner ce dépôt
-#   GitHub → Render lit ce fichier et crée automatiquement les 3 services.
-#
-# Architecture provisionnée :
-#   1. art-telecom-gis-db    — PostgreSQL 16 + PostGIS (extension activée
-#                              automatiquement au démarrage du backend)
-#   2. art-telecom-gis-api   — Backend FastAPI (image Docker, seed automatique
-#                              si la base est vide, Swagger sur /docs)
-#   3. art-telecom-gis       — Frontend React compilé (site statique)
-#
-# ⚠️  Si un nom de service est déjà pris, Render ajoute un suffixe : mettez alors
-#     à jour CORS_ORIGINS (backend) et VITE_API_URL (frontend) avec l'URL réelle.
-# ─────────────────────────────────────────────────────────────────────────────
-
-databases:
-  - name: art-telecom-gis-db
-    databaseName: telecom_gis
-    user: artgis
-    plan: basic-256mb          # Plan payant minimal (~6 $/mois) — PostGIS inclus
-    region: frankfurt
-    postgresMajorVersion: "16"
-
+# ── ART TELECOM GIS — Blueprint Render 100% GRATUIT (API Render + BD Neon) ──
 services:
-  # ── Backend FastAPI (Docker : backend/Dockerfile, contexte racine) ──
+  # ── Backend FastAPI (Docker, plan gratuit) ──
   - type: web
     name: art-telecom-gis-api
     runtime: docker
-    plan: free                 # Plan gratuit : mise en veille après 15 min d'inactivité
+    plan: free
     region: frankfurt
     dockerfilePath: ./backend/Dockerfile
     dockerContext: .
     healthCheckPath: /api/health
-    # ⚠️ Pas de preDeployCommand : non supporté par le plan Free de Render.
-    # Les tables et les données de démonstration sont générées automatiquement
-    # au démarrage de l'API (seed idempotent — voir app/main.py et scripts/seed.py).
+    # Pas de preDeployCommand (non supporté en Free) :
+    # PostGIS + tables + données démo créés automatiquement au démarrage (main.py)
     envVars:
       - key: DATABASE_URL
-        fromDatabase:
-          name: art-telecom-gis-db
-          property: connectionString
+        sync: false          # ← sera renseigné manuellement (URL Neon)
       - key: SECRET_KEY
-        generateValue: true    # Clé JWT aléatoire générée par Render
+        generateValue: true
       - key: ACCESS_TOKEN_EXPIRE_MINUTES
         value: 480
       - key: CORS_ORIGINS
         value: https://art-telecom-gis.onrender.com,http://localhost:5173,http://localhost:3000
 
-  # ── Frontend React (site statique) — gratuit par nature, pas de champ plan ──
+  # ── Frontend React (site statique, gratuit — PAS de champ plan) ──
   - type: web
     name: art-telecom-gis
     runtime: static
@@ -60,9 +30,8 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://art-telecom-gis-api.onrender.com
+        sync: false          # ← sera renseigné manuellement (URL de l'API)
     routes:
-      # Routage SPA : toute URL non statique renvoie index.html (React Router)
       - type: rewrite
         source: /*
         destination: /index.html
